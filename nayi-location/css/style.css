@@ -3362,3 +3362,20 @@ button:hover {
 .about-us-page {
 
 }
+
+
+#our-pricing .residential-type{
+  background: #596FB7;
+  box-shadow: none;
+  border-radius: 5px;
+}
+#our-pricing .commercial-type{
+  background: #5F8670;
+  box-shadow: none;
+  border-radius: 5px;
+}
+#our-pricing .rent-type{
+  background: #596FB7;
+  box-shadow: none;
+  border-radius: 5px;
+}
