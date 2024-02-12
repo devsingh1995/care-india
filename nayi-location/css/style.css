@@ -1609,6 +1609,7 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
   border-radius: 0px;
   height: 100%;
   border-left: 10px solid #f8f9fa;
+  border-right: 10px solid #f8f9fa;
 }
 
 .enquiry-form .form-check-input {
