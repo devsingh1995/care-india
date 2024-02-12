@@ -44,7 +44,7 @@ body {
   --blue-color: #004395;
   --green-color: #219735;
   --dark-blue-color: #18223e;
-  --yellow-color: #f7d12e;
+  --yellow-color: #04bcff;
 }
 
 a:focus,
@@ -327,9 +327,10 @@ button:visited {
 .property-details-area::before {
   position: absolute;
   right: -80%;
-  background: #005C97;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
   content: '';
   top: 0;
@@ -758,14 +759,14 @@ img.footer-logo {
 .floorplanimages .project-image img {
   height: 234px;
   object-fit: cover;
-  transition: 1s ease;
+  transition: 0.5s ease;
 }
 
 .price-section .box:hover .project-image img {
   transition: 1s ease;
   overflow: hidden;
-  -webkit-transform: scale(1.2) rotate(10deg);
-  transform: scale(1.2) rotate(2deg);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .project-image {
@@ -1256,9 +1257,10 @@ section {
 
 .navbar-nav .nav-link.btn {
   color: var(--font-color-white) !important;
-  font-weight: 600;
-  padding: 5px 19px;
-  background: linear-gradient(to right, #004395 50%, #425ba6 50%);
+    font-weight: 600;
+    padding: 6px 18px;
+    border-radius: 30px;
+    background: #00bbff;
 }
 
 .navbar-nav .nav-link.btn:hover {
@@ -1597,14 +1599,15 @@ section {
 }
 
 .enquiry-form {
-  background: #005C97;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding: 20px;
   z-index: 99;
   border-radius: 0px;
   height: 100%;
-  border-left: 10px solid #ffc107;
+  border-left: 10px solid #f8f9fa;
 }
 
 .enquiry-form .form-check-input {
@@ -1646,7 +1649,7 @@ background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, F
 }
 
 .enquiry-form h4 {
-    background-color: #ffc107;
+    background-color: #f8f9fa;
     padding: 10px;
     font-size: 25px !important;
     font-weight: 700;
@@ -1673,7 +1676,7 @@ background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, F
   color: var(--font-color-black);
   font-weight: 600;
   font-size: 16px;
-  border: 2px solid #ffc107;
+  border: 2px solid #00bbff;
   border-radius: 30px;
   padding: 0.475rem 0.75rem;
 }
@@ -1704,14 +1707,14 @@ background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, F
     margin-left: auto;
     margin-right: auto;
     height: 7px;
-    background: #ffc107;
+    background: #00bbff;
     border-left: 5px solid #fff;
     border-right: 5px solid #fff;
     position: relative;
 }
 
 .form-submit .btn-primary {
-background-color: #ffc107;
+background-color: #00bbff;
     padding: 8px 20px;
     box-shadow: none;
     border: none;
@@ -2068,9 +2071,10 @@ left: 0;
 }
 
 .faq .footer-form {
-  background: #005C97;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding: 1rem 2rem 1rem;
   border-radius: 15px;
   height: 100%;
@@ -2093,7 +2097,7 @@ background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, F
   outline: 0;
   box-shadow: none;
   border: none;
-  background-color: #ffc107;
+  background-color: #00bbff;
   color: var(--font-color-black);
 }
 
@@ -2192,7 +2196,7 @@ background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, F
 }
 
 .floor-title {
-background: #ffc107;
+background: #00bbff;
     text-align: center;
     color: var(--font-color-black);
     text-decoration: none;
@@ -2297,7 +2301,7 @@ button.floor-enq-btn {
 
 h5.modal-title {
     text-align: center;
-    background-color: #ffc107;
+    background-color: #00bbff;
     border-radius: 0px;
     padding: 15px 0;
     -webkit-border-radius: 0px;
@@ -2309,7 +2313,7 @@ h5.modal-title {
 
 .modal .modal-body {
   padding: 0;
-  border-bottom: 0.3rem solid #d26ba7;
+  border-bottom: 10px solid #00bbff;
 }
 
 .fixed-form .formFooter {
@@ -2348,7 +2352,7 @@ h5.modal-title {
 
 .fixed-form .formFooter button {
   text-align: center;
-  background-color: rgb(134, 168, 231);
+  background-color: rgb(0 187 255);
   color: var(--font-color-white);
   border: none;
   padding: 10px 15px;
@@ -3301,7 +3305,7 @@ button:hover {
     background: linear-gradient(to right, #3256a4 50%, #004395 50%);
     color: #fff;
     border-radius: 30px;
-    border: 3px solid #ffc107;
+    border: 3px solid #00bbff;
 }
 
 
@@ -3331,7 +3335,7 @@ button:hover {
 }
 
 .floor-plan .pro-info-box i {
-    color: #ffc107;
+    color: #00bbff;
 }
 
 
@@ -3347,7 +3351,7 @@ button:hover {
 }
 
 .price-section .enq-btns a.call-btn {
-    background-color: #ffc107;
+    background-color: #00bbff;
     color: var(--font-color-black);
 }
 
