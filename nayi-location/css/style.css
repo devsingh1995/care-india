@@ -2324,6 +2324,7 @@ h5.modal-title {
 
 .modal .modal-body {
   padding: 0;
+  min-height: 20em;
   border-bottom: 10px solid #00bbff;
 }
 
