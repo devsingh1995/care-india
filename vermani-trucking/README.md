@@ -1,0 +1,1 @@
+Upload everything (except build.py) to public_html. Replace placeholders (class .ph): address, email, hours, map. Set $to in contact.php. Phone 1-833-837-6264 was read from the van wrap: verify it. Convert assets/images/*.png to WebP before launch.
